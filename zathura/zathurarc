@@ -1,0 +1,50 @@
+set font                        "monospace 11"
+set default-bg                  "#454545"
+set default-fg                  "#ffffff"
+
+set statusbar-bg                "#454545"
+set statusbar-fg                "#ebdbb2"
+
+set inputbar-bg                 "#454545"
+set inputbar-fg                 "#ebdbb2"
+
+set notification-error-bg       "#fb4934"
+set notification-error-fg       "#454545"
+
+set notification-warning-bg     "#d3869b"
+set notification-warning-fg     "#454545"
+
+set highlight-color             "#fabd2f"
+set highlight-active-color      "#fe8019"
+
+set completion-highlight-bg     "#3c3836"
+set completion-highlight-fg     "#fb4934"
+
+set completion-bg               "#454545"
+set completion-fg               "#ebdbb2"
+
+set notification-bg             "#454545"
+set notification-fg             "#ebdbb2"
+
+set recolor-lightcolor          "#454545"
+set recolor-darkcolor           "#ffffff"
+
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map r reload
+map R rotate
+map K zoom in
+map J zoom out
+map i recolor
+set recolor                     true
+set smooth-scroll "true"
+set font "open sans regular 12"
+set window-title-home-tilde true
+set statusbar-basename true
+set guioptions hv 
+set selection-clipboard clipboard
+map n feedkeys "/"
